@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
 
 class ViewProp extends StatefulWidget {
   const ViewProp({super.key});
@@ -65,11 +64,11 @@ class _ViewPropState extends State<ViewProp> {
     }
   }
 
-  GoogleMapController? mapController;
+  // GoogleMapController? mapController;
 
-  void _onMapCreated(GoogleMapController controller) {
-    mapController = controller;
-  }
+  // void _onMapCreated(GoogleMapController controller) {
+  //   mapController = controller;
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -240,7 +239,7 @@ class _ViewPropState extends State<ViewProp> {
                   child: Align(
                     alignment: Alignment.topLeft,
                     child: Text(
-                      '452 Quatro de Julio St. \nBrgy. Salapungan',
+                      '452 Quatro de Julio Stt. \nBrgy. Salapungan',
                       style: TextStyle(
                           fontFamily: 'montserrat',
                           fontSize: 13,
